@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-backend",
+  "version": "1.0.0",
+  "description": "Simple ApiFor making whatsapp request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashwin-Nema/Bellcorp-Studio-Assignment-2.git"
+  },
+  "author": "Ashwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashwin-Nema/Bellcorp-Studio-Assignment-2/issues"
+  },
+  "homepage": "https://github.com/Ashwin-Nema/Bellcorp-Studio-Assignment-2#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
