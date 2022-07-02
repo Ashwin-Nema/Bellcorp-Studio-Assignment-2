@@ -1,11 +1,11 @@
 require('dotenv').config()
 const axios = require('axios')
 const {PHONE_NUMBER_ID, BEARER_TOKEN} = process.env
-function sendMessage(number) {
+function sendMessage(mobileNumber) {
     axios.post(`https://graph.facebook.com/v13.0/${PHONE_NUMBER_ID}/messages`, 
     {
         "messaging_product": "whatsapp",
-        "to": `${number}`,
+        "to": `${mobileNumber}`,
         "type": "template",
         "template": {
             "name": "hello_world",
